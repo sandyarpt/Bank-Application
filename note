@@ -1,0 +1,30 @@
+html element-opening pag,content,clossing tag eg:- <h4>hello </h4>       
+Angular-front end development
+
+
+basic commands
+
+to create a oroject - ng new projet-name/ng new projet-name --routing
+to run a project ng serve/ng serve --open
+to create a component-ng g c component-name
+
+
+Basic concept
+1-component  (buildimg block of Angular project) - to create (html,css,ts file),  root component - Appcomponent.
+2-Module - to add 3rd party libraries to the project-root module -AppModule
+3-Data bindimg - data sharing between ts(component ) to view (html)
+    3.1 one way binding
+        3.1.1 component to view
+            3.1.1.1 String Interpolation:Syntax -{{variabe-name}}
+            3.1.1.2 property binding:[attribute]="variable-name"
+        3.1.2 view to component
+            3.1.2.1 Event Binding - (event) = "function-call()"
+            3.1.2.2 Event Binding - (event) = "function-call($event)"
+            3.1.2.3 Template referencing variable - syntax- #variable-name
+
+    3.1  Two way Binding -
+        3.2  using ngModel - import formsModule in AppModule.
+                 [(ngModel)]="variable-name"
+
+
+        
