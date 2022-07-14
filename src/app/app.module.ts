@@ -11,6 +11,14 @@ import { LoginmainComponent } from './loginmain/loginmain.component';
 import { RegisterComponent } from './register/register.component';
 import { GitTest1Component } from './git-test1/git-test1.component';
 import { GitTestComponent } from './git-test/git-test.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AnimationComponent } from './animation/animation.component';
+import { DeleteConfirmComponent } from './delete-confirm/delete-confirm.component';
+import { HighlightDirective } from './directives/highlight.directive';
+import { TransactionComponent } from './transaction/transaction.component';
+import{BrowserAnimationsModule} from "@angular/platform-browser/animations"
+import{HttpClientModule} from '@angular/common/http'
 
  
 @NgModule({
@@ -23,13 +31,23 @@ import { GitTestComponent } from './git-test/git-test.component';
     RegisterComponent,
     GitTest1Component,
     GitTestComponent,
+    DashboardComponent,
+    AnimationComponent,
+    DeleteConfirmComponent,
+    HighlightDirective,
+    TransactionComponent,
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
-  ],
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    HttpClientModule
+    ],
+    
   providers: [],
   bootstrap: [AppComponent]
 })

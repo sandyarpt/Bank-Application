@@ -28,3 +28,24 @@ Basic concept
 
 
         
+    4 To setup path for a component : defined in appRouting 
+        syntax:{path:'',component:componentClassName}
+    
+    5 Dependency Injection - to share data  (properties,methods)between classes
+    
+    6 - Angular Services - for reuse data
+
+    7 - ngSubmit - to submit entire form syntax: (ngSubmit)="function -call"
+    
+    8-Angular Forms
+        8.1 Template Driven Formms - first design html
+        8.2 Model driven Forms -Add Validation : import { ReactiveFormsModule } from '@angular/forms' -  in AppModule.;
+form group - FormBuilder (class)  - Dependency inject ,form array,form controll 
+
+    9-Angular Directives - To Manipulate DOM
+    
+    
+
+
+
+
